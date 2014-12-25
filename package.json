@@ -1,0 +1,42 @@
+{
+  "name": "grunt-resource-resizer",
+  "version": "1.0.0",
+  "description": "Resize image resource. Mainly developed for Android.",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yshrsmz/grunt-resource-resizer.git"
+  },
+  "keywords": [
+    "resize",
+    "png",
+    "android"
+  ],
+  "author": "yshrsmz",
+  "license": {
+    "type": "MIT",
+    "url": "http://yshrsmz.mit-license.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/yshrsmz/grunt-resource-resizer/issues"
+  },
+  "homepage": "https://github.com/yshrsmz/grunt-resource-resizer",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-jsvalidate": "^0.2.2"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "gm": "^1.17.0",
+    "mkdirp": "^0.5.0"
+  }
+}
