@@ -10,7 +10,7 @@ rr: {
             output: {
                 xhdpi: {
                     pixelRatio: 2,
-                    dir: 'drawable-xhdpi/'
+                    dir: 'drawable-xhdpi/'  // output directory
                 },
                 xxhdpi: {
                     pixelRatio: 3,
@@ -23,6 +23,7 @@ rr: {
             }
         },
         files: {
+            // [output base path] : [source images pattern]
             './tmp/res/': 'test/res/drawable-xxxhdpi/*.png'
         }
     }
