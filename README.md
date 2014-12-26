@@ -1,6 +1,9 @@
 grunt-resource-resizer
 ======================
 
+Grunt task to resize images at once.
+
+Bigger image can be created from smaller one, but it is strongly recommended not to do that.
 
 ```javascript
 rr: {
